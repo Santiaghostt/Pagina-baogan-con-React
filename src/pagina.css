@@ -1,0 +1,100 @@
+@font-face {
+    font-family: Baloo-regular;
+    src: url(./fonts/Baloo-Regular.ttf);
+}
+@font-face {
+    font-family: Wulantika;
+    src: url(./fonts/Wulantika.ttf);
+}
+@font-face {
+    font-family: gang-of-three;
+    src: url(./fonts/go3v2.ttf);
+}
+
+
+* {
+    padding: 0 ;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+body {
+    background-color: #292929;
+}
+
+.btn-red-bgn {
+    background-color: #9a1920;
+    color: whitesmoke;
+}
+
+button:hover {
+ background-color: #d33139 !important;
+ color: white !important;
+}
+
+.hover-rojo:hover {
+    background-color: #d33139;
+    color: white !important;
+}
+
+.wulantika {
+    font-family: Wulantika;
+}
+
+.l-china {
+    font-family: gang-of-three;
+}
+.baloo {
+    font-family: Baloo-regular;
+}
+.ir-arriba{
+    animation: pelota 0.3s infinite alternate ease-out;
+    border-radius: 30px;
+    display: none;
+    padding: 20px;
+    background: black;
+    font-size: 20px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.texto-justificado {
+    text-align: justify;
+}
+
+.img-transform-s1 {
+    transition: 0.3s;
+}
+
+.img-transform-s1:hover {
+    transition: 0.3s;
+    transform: scale (0.9);
+    cursor: pointer;
+}
+
+.tamaño-baogan {
+    width: 222px !important;
+    height: 200px !important;
+}
+.tamaño-evita {
+    width: 110px !important;
+    height: 200px !important;
+}
+.tamaño-evito {
+    width: 132px !important;
+    height: 200px !important;
+}
+
+.bg-texture-bgn {
+    background-color: rgb(255, 255, 255);
+   /*  background: url(./images/textura-bgn.png) !important; */
+    padding: 3% !important;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0 100%);
+}
+
+.bg-card-dark {
+    background-color: #ffffff
+}
